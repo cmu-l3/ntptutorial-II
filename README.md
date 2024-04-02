@@ -19,7 +19,7 @@ Builds a neural next-step suggestion tool, introducing concepts and past work in
 | 2. Learning         | [notebook](./partI_nextstep/notebooks/I_nextstep_lean__part2_learn.ipynb) |
 | 3. Proof Search     | [notebook](./partI_nextstep/notebooks/I_nextstep_lean__part3_proofsearch.ipynb) |
 | 4. Evaluation       | [notebook](./partI_nextstep/notebooks/I_nextstep_lean__part4_evaluation.ipynb) |
-| 5. Context | [notebook](./partI_nextstep/notebooks/I_nextstep_lean__part4_context.ipynb) |
+| 5. Context | [notebook](./partI_nextstep/notebooks/I_nextstep_lean__part5_context.ipynb) |
 | 6. `LLMLean` tool        | [notebook](./partI_nextstep/notebooks/I_nextstep_lean__part6_llmsuggest.ipynb) |
 
 All notebooks are in ([`partI_nextstep/notebooks`](./partI_nextstep/notebooks)). 
