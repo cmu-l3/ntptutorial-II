@@ -6,7 +6,7 @@ from transformers import StoppingCriteria
 import torch
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--hf-model', type=str, default='wellecks/ntp-mathlib-context-instruct-deepseek-coder-1.3b-v0')
+parser.add_argument('--hf-model', type=str, default='l3lab/ntp-mathlib-context-deepseek-coder-1.3b')
 parser.add_argument('--port', type=int, default=5001)
 parser.add_argument('--temperature', type=float, default=0.5)
 args = parser.parse_args()
@@ -22,6 +22,7 @@ print("Done.")
 
 class MultiTokenEOSCriteria(transformers.StoppingCriteria):
     """Criteria to stop on the specified multi-token sequence."""
+    # From: https://github.com/wellecks/lm-evaluation-harness/blob/master/lm_eval/models/huggingface.py#L482
 
     def __init__(
         self,
@@ -50,7 +51,7 @@ class MultiTokenEOSCriteria(transformers.StoppingCriteria):
                 self.done_tracker[i] = self.sequence in lookback_tokens_batch[i]
         return False not in self.done_tracker
 
-
+# From: https://github.com/wellecks/lm-evaluation-harness/blob/master/lm_eval/models/huggingface.py#L482
 def stop_sequences_criteria(
     tokenizer: transformers.PreTrainedTokenizer,
     stop_sequences,
