@@ -2,20 +2,20 @@
 
 Builds a neural next-step suggestion tool, introducing concepts and past work in neural theorem proving along the way.
 
-<img src="./partI_nextstep/notebooks/images/llmsuggest/llmstep_gif.gif" width="350"/>
+<img src="./notebooks/images/llmsuggest/llmstep_gif.gif" width="350"/>
 
 #### Notebooks:
 | Topic | Notebook | 
 |:-----------------------|-------:|
-| 0. Intro            | [notebook](./partI_nextstep/notebooks/I_nextstep_lean__part0_intro.ipynb) |
-| 1. Data             | [notebook](./partI_nextstep/notebooks/I_nextstep_lean__part1_data.ipynb) |
-| 2. Learning         | [notebook](./partI_nextstep/notebooks/I_nextstep_lean__part2_learn.ipynb) |
-| 3. Proof Search     | [notebook](./partI_nextstep/notebooks/I_nextstep_lean__part3_proofsearch.ipynb) |
-| 4. Evaluation       | [notebook](./partI_nextstep/notebooks/I_nextstep_lean__part4_evaluation.ipynb) |
-| 5. Context | [notebook](./partI_nextstep/notebooks/I_nextstep_lean__part4_context.ipynb) |
-| 6. `LLMLean` tool        | [notebook](./partI_nextstep/notebooks/I_nextstep_lean__part6_llmsuggest.ipynb) |
+| 0. Intro            | [notebook](./notebooks/I_nextstep_lean__part0_intro.ipynb) |
+| 1. Data             | [notebook](./notebooks/I_nextstep_lean__part1_data.ipynb) |
+| 2. Learning         | [notebook](./notebooks/I_nextstep_lean__part2_learn.ipynb) |
+| 3. Proof Search     | [notebook](./notebooks/I_nextstep_lean__part3_proofsearch.ipynb) |
+| 4. Evaluation       | [notebook](./notebooks/I_nextstep_lean__part4_evaluation.ipynb) |
+| 5. Context | [notebook](./notebooks/I_nextstep_lean__part5_context.ipynb) |
+| 6. `LLMLean` tool        | [notebook](./notebooks/I_nextstep_lean__part6_llmsuggest.ipynb) |
 
-All notebooks are in ([`partI_nextstep/notebooks`](./partI_nextstep/notebooks)). 
+All notebooks are in ([`partI_nextstep/notebooks`](./notebooks)). 
 
 ## Setup
 
