@@ -24,6 +24,16 @@ Builds a neural next-step suggestion tool, introducing concepts and past work in
 
 All notebooks are in ([`partI_nextstep/notebooks`](./partI_nextstep/notebooks)). 
 
+#### Artifacts:
+| Name | Huggingface | 
+|:-----------------------|-------:|
+| Data: mathlib extractions | [l3lab/ntp-mathlib](https://huggingface.co/datasets/l3lab/ntp-mathlib) |
+| Data: instructions (state-tactic)  | [l3lab/ntp-mathlib-instruct-st](https://huggingface.co/datasets/l3lab/ntp-mathlib-instruct-st) |
+| Data: instructions (+context)  | [l3lab/ntp-mathlib-instruct-ctx](https://huggingface.co/datasets/l3lab/ntp-mathlib-instruct-ctx) |
+| Model: state-tactic     | [l3lab/ntp-mathlib-st-deepseek-coder-1.3b](https://huggingface.co/l3lab/ntp-mathlib-st-deepseek-coder-1.3b) |
+| Model: +context     | [l3lab/ntp-mathlib-context-deepseek-coder-1.3b](https://huggingface.co/l3lab/ntp-mathlib-context-deepseek-coder-1.3b) |
+
+
 #### Setup:
 Please follow the setup instructions in [`partI_nextstep/README.md`](./partI_nextstep/README.md).
 
