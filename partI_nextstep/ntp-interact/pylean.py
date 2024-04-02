@@ -1,3 +1,4 @@
+# From https://github.com/zhangir-azerbayev/repl/blob/master/pylean/pylean/__init__.py
 import pexpect
 import json
 
@@ -7,18 +8,17 @@ class LeanServer:
     def __init__(self, path_to_repl):
         self.proc = pexpect.spawn(
             "lake env lean --run REPL/Main.lean", cwd=path_to_repl, encoding="utf-8",
-            # timeout=300
         )
 
     def run_code(self, code, env=None, verbose=False):
         if env:
             command = (
                 json.dumps(dict(cmd=code, env=env))
-            )  # [1:-1] removes single quotes
+            )  
         else:
             command = (
                 '{ "cmd" : "' + repr(code)[1:-1] + '" }'
-            )  # [1:-1] removes single quotes
+            )  
 
         if verbose:
             print(command)
