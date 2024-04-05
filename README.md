@@ -5,6 +5,8 @@ This tutorial introduces two research threads in neural theorem proving via inte
 
 This is an updated version of [https://github.com/wellecks/ntptutorial](github.com/wellecks/ntptutorial).
 
+[[slides](https://wellecks.com/data/welleck2024_ntptutorial.pdf)]
+
 ## Part I : Next-step suggestion
 
 Builds a neural next-step suggestion tool, introducing concepts and past work in neural theorem proving along the way.
