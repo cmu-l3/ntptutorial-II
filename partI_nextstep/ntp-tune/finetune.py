@@ -285,7 +285,7 @@ def parse_args():
 def encode_with_prompt_completion_format(example, tokenizer, max_seq_length, add_bos=False):
     '''
     Here we assume each example has 'prompt' and 'completion' fields.
-    We concatenate prompt and completion and tokenize them together because otherwise prompt will be padded/trancated 
+    We concatenate prompt and completion and tokenize them together because otherwise prompt will be padded/truncated 
     and it doesn't make sense to follow directly with the completion.
     '''
     # if prompt doesn't end with space and completion doesn't start with space, add space
