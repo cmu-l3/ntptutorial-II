@@ -3,7 +3,7 @@
 *Neural theorem proving* combines neural language models with formal proof assistants.\
 This tutorial introduces two research threads in neural theorem proving via interactive Jupyter notebooks.
 
-This is an updated version of [https://github.com/wellecks/ntptutorial](github.com/wellecks/ntptutorial).
+This is an updated version of <https://github.com/wellecks/ntptutorial>.
 
 [[slides](https://wellecks.com/data/welleck2024_ntptutorial.pdf)]
 
